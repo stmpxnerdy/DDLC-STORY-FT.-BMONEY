@@ -1,0 +1,31 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 27, in script call
+    call story
+  File "game/story.rpy", line 20, in script
+    hide braxton with moveoutLeft
+  File "game/story.rpy", line 20, in <module>
+    hide braxton with moveoutLeft
+NameError: name 'moveoutLeft' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 27, in script call
+    call story
+  File "game/story.rpy", line 20, in script
+    hide braxton with moveoutLeft
+  File "C:\Users\offic\OneDrive\Desktop\stampic ddlc\money\renpy\ast.py", line 1271, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\offic\OneDrive\Desktop\stampic ddlc\money\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\offic\OneDrive\Desktop\stampic ddlc\money\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/story.rpy", line 20, in <module>
+    hide braxton with moveoutLeft
+NameError: name 'moveoutLeft' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Doki Doki Literature Club! 1.1.1
